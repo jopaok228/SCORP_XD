@@ -62,3 +62,23 @@
 🟡 <b>TalkDrove:</b>  
 <a href="https://talkdrove.com" target="_blank">
   <img src="https://img.shields.io/badge/TalkDrove-Deploy-6B47FF?style=flat-square&logo=github&logoColor=white" alt="TalkDrove">
+
+### 🌍 Rejoins ma Communauté SCORPION
+
+[![WhatsApp Support](https://img.shields.io/badge/Support%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/IEpGX69OaCB1U0G0F0viKZ?mode=ac_t)
+[![Telegram Channel](https://img.shields.io/badge/Canal%20Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ytivd)
+[![WhatsApp Channel](https://img.shields.io/badge/Channel%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbB2wAgJf05Tm2oHmD38)
+
+Partage, pose tes questions, et reste à jour avec toutes les nouveautés du projet !
+
+---
+
+### 👨‍💻 Développeur Principal
+- **SCORPION**
+---
+### 🙌 Remerciements
+- small_snake – pour son soutien et aide dans la gestion du bot au support.
+---
+### 📄 Licence
+
+Distribué sous la licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus d’informations.
