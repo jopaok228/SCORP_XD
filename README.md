@@ -5,9 +5,6 @@
 
 
 
-<p align="center">
-  <img src="https://files.catbox.moe/rdfqwy.jpeg" width="65%" />
-</p>
 
 <p align="center" style="color:#777;font-size:13px;">
   <img src="https://github.com/jopaok228/SCORP_XD/blob/main/assets/warning.gif?raw=true" width="15" />
