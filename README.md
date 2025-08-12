@@ -20,12 +20,6 @@
 ## SCORP XD Deployment Methods
 ---
 1.  **Fork Repo First, [`CLICK HERE`](https://github.com/jopaok228/SCORP_XD/fork) (A MUST) and `Star ⭐ Repository` for Courage.**
-2.  **Get `SESSION ID`
-3.  BY [`PAIRING CODE`](https://mega-md2-uvme.onrender.com/pair)
-4.
-5.   OR
-6.
-7.  BY [`SCANNING QR CODE1`](https://sessionidgenerator-8c28c0ba5525.herokuapp.com/wasiqr)*
 
 <h2 align="center">🚀
   Deploy SCORPION-XD Anywhere</h2>
@@ -71,48 +65,7 @@ For a classic installation on a panel or VPS:
 
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/jopaok228/SCORP_XD/archive/refs/heads/main.zip)
 
-### 3. VPS Hosting
 
-```bash
-git clone  https://github.com/jopaok228/SCORP_XD # (or use the ZIP)
-cd SCORP-XD
-npm install
-npm start
-```
-
-1. Configure the `.env` file as needed (see example below).
-
----
-
-### ⚙️ Minimal Configuration
-
-```env
-# .env file
-SESSION_ID="your_session_here"    # Required
-PREFIX="!"                        # Command character
-OWNER_NUMBER="22898452555"        # Your WhatsApp number
-```
-
-## 💜 Acknowledgements
-
-### 🏆 Key Contributors
-
-| Member | Contribution | Link |
-|--------|--------------|------|
-| **SMALL SNAKE** | GPT/DALL-E Commands • APK Modules | [GitHub](https://github.com/fatao) |
-| **CrazyPrince** | Hosting a session service | site closed |
-
-### 🌟 Special Thanks
-
-- **The SCORP community** for testing and feedback  
-- **Contributors** on GitHub ([See all](https://github.com/jopaok228/SCORP_XD/graphs/contributors))  
-- **Beta Testers** for their patience with unstable versions 😅
-
-### 📚 Libraries Used
-
-```bash
-@WhiskeySocket/baileys
-```
 
 ### 🌍 Rejoins ma Communauté SCORPION
 
@@ -127,8 +80,6 @@ Partage, pose tes questions, et reste à jour avec toutes les nouveautés du pro
 ### 👨‍💻 Développeur Principal
 - **SCORPION**
 ---
-### 🙌 Remerciements
-- small_snake – pour son soutien et aide dans la gestion du bot au support.
 ---
 ### 📄 Licence
 
