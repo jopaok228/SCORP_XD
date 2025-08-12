@@ -63,6 +63,57 @@
 <a href="https://talkdrove.com" target="_blank">
   <img src="https://img.shields.io/badge/TalkDrove-Deploy-6B47FF?style=flat-square&logo=github&logoColor=white" alt="TalkDrove">
 
+</details>
+
+#### b. Manual Method
+
+For a classic installation on a panel or VPS:
+
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/jopaok228/SCORP_XD/archive/refs/heads/main.zip)
+
+### 3. VPS Hosting
+
+```bash
+git clone  https://github.com/jopaok228/SCORP_XD # (or use the ZIP)
+cd SCORP-XD
+npm install
+npm start
+```
+
+1. Configure the `.env` file as needed (see example below).
+
+---
+
+### ⚙️ Minimal Configuration
+
+```env
+# .env file
+SESSION_ID="your_session_here"    # Required
+PREFIX="!"                        # Command character
+OWNER_NUMBER="22898452555"        # Your WhatsApp number
+```
+
+## 💜 Acknowledgements
+
+### 🏆 Key Contributors
+
+| Member | Contribution | Link |
+|--------|--------------|------|
+| **SMALL SNAKE** | GPT/DALL-E Commands • APK Modules | [GitHub](https://github.com/fatao) |
+| **CrazyPrince** | Hosting a session service | site closed |
+
+### 🌟 Special Thanks
+
+- **The SCORP community** for testing and feedback  
+- **Contributors** on GitHub ([See all](https://github.com/jopaok228/SCORP_XD/graphs/contributors))  
+- **Beta Testers** for their patience with unstable versions 😅
+
+### 📚 Libraries Used
+
+```bash
+@WhiskeySocket/baileys
+```
+
 ### 🌍 Rejoins ma Communauté SCORPION
 
 [![WhatsApp Support](https://img.shields.io/badge/Support%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/IEpGX69OaCB1U0G0F0viKZ?mode=ac_t)
