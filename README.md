@@ -16,7 +16,14 @@
   <img src="https://github.com/jopaok228/SCORP_XD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 
-<h2 align="center">🚀 Deploy SCORPION-XD Anywhere</h2>
+
+## SCORP XD Deployment Methods
+---
+1.  **Fork Repo First, [`CLICK HERE`](https://github.com/jopaok228/SCORP_XD/fork) (A MUST) and `Star ⭐ Repository` for Courage.**
+2.  **Get `SESSION ID` BY [`PAIRING CODE`](https://sessionidgenerator-8c28c0ba5525.herokuapp.com/pair) OR BY [`SCANNING QR CODE1`](https://sessionidgenerator-8c28c0ba5525.herokuapp.com/wasiqr)*
+
+<h2 align="center">🚀
+  Deploy SCORPION-XD Anywhere</h2>
 
 <p align="center">Choose a platform and deploy instantly:</p>
 
